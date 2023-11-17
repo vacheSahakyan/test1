@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    margin-top: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searching {
+    flex-direction: column;
+    border: none;
+  }
+  .english_alphabet,
+  .russian_alphabet {
+    width: 93%;
+    flex-wrap: wrap !important;
+    padding: 15px;
+    border: 3px solid;
+  }
+  .whole {
+    width: 100%;
+  }
+  .menu {
+    display: none !important;
+  }
+  .geo_logo {
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  .call_logo {
+    display: block;
+    margin-top: 15px;
+  }
+  .submit_button {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+  .manufactures_box {
+    display: flex !important;
+    width: 100% !important;
+  }
+  .section_documentation {
+    display: none;
+  }
+  .section_line {
+    display: none;
+  }
+}
