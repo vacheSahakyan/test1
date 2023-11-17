@@ -1,0 +1,89 @@
+.header {
+  margin-top: 52px;
+  width: 100%;
+  height: 96px;
+  box-shadow: 4px 8px 21px 0px #00000026;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.header_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header_log {
+  display: flex;
+  align-items: center;
+}
+.logo_lines {
+  display: block;
+  margin: 14px 26px 8px 0px;
+}
+
+.logo {
+  margin-top: 4px;
+}
+
+.logo_lines_long {
+  border: 1px solid black;
+  width: 18px;
+  display: block;
+  margin-bottom: 8px;
+}
+.logo_lines_short {
+  border: 1px solid black;
+  display: block;
+  width: 11px;
+}
+
+.menu_list {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+
+.menu_list li {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: black;
+}
+
+.callBack_container {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.geo_logo {
+  display: none;
+}
+
+.call_logo {
+  display: none;
+}
+.search {
+  margin: 11px 20px 11px 0px;
+}
+
+.submit_button {
+  width: 151px;
+  height: 40px;
+  border-radius: 5px;
+  background: #3f5dd4;
+  border: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
